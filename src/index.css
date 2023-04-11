@@ -16,4 +16,69 @@ body {
   padding: 2rem;
 }
 
+.main h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+.main input {
+  width: 100%;
+  min-width: 750px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(10, 172, 166);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(3, 116, 112);
+}
+
+button:active {
+  scale: 0.9;
+}
+
+.input_submit {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+
+.todos__single {
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.todos__single--text {
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+}
