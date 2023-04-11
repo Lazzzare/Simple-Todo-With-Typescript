@@ -1,4 +1,4 @@
-![NoteApp](/src/assets/capture.PNG)
+![NoteApp](./src/assets/Capture.PNG)
 
 # Link
 
